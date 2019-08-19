@@ -7,7 +7,7 @@ Behind the publicly accessible spaces, these researchers work on manyfold projec
 
 We aim to provide the researchers at museum with (1) Wiki-based read and write access to research project information, (2) insights about potentials for knowledge transfer powered by linked data and (3) interactive visualisations of these networked sources of knowledge. Focussing on the seamless integration of these provisions, the HCC aims to set up an actionable and holistic system that visualises research project data and their potential for knowledge transfer in research museums like the Natural History Museum.
 
-Prototype
+## Interactive visualization prototype
 
 [Repository of backend](https://github.com/FUB-HCC/IKON-backend)
 
