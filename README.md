@@ -1,5 +1,5 @@
 
-![IKON logo](https://www.mi.fu-berlin.de/en/inf/groups/hcc/research/projects/ikon/IKON-Logo.png?width=500)
+![IKON Logo](IKON-Logo-screen_L-rgb-positive-unprotected.png)
 
 The Natural History Museum in Berlin (Museum für Naturkunde - Leibniz Institute for Evolution and Biodiversity Science) is  among the top 10 world-wide and the largest of its kind in Germany. The museum is home to over 30 Mio. collection objects, more than 250 researchers and more than 400 research assistants as well as PhD students, from disciplines such as biology, paleontology, mineralogy and information science.
 
