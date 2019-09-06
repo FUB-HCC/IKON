@@ -16,6 +16,6 @@ We aim to provide the researchers at museum with (1) Wiki-based read and write a
 
 ## Interactive visualization prototype
 
-[Frontend ('projektor') code repository](https://github.com/FUB-HCC/IKON-projektor)
+- [Frontend ('projektor') code repository](https://github.com/FUB-HCC/IKON-projektor)
 
-[Backend code repository](https://github.com/FUB-HCC/IKON-backend)
+- [Backend code repository](https://github.com/FUB-HCC/IKON-backend)
