@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/FUB-HCC/IKON/raw/master/IKON-Logo-screen_L-rgb-positive-unprotected.png"></p>
 
 <p align="center">
-<a src="#"><img src"https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue"></a>
+<a src="#"><img src="https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue"></a>
 <a src="https://circleci.com/gh/FUB-HCC/IKON-backend/tree/master"><img src="https://circleci.com/gh/FUB-HCC/IKON-backend/tree/master.svg?style=shield"></a>
 <a src="#"><img src="https://img.shields.io/badge/license-AGPLv3-blue" alt="License"></a>
 </p>
