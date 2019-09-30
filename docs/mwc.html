@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>MediaWiki Connector (MWC)</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/darkula.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
@@ -150,6 +150,22 @@ pre code {
             <a href="#doc-api-detail">API detail</a>
         </li>
         
+        <li>
+            <a href="#request-list-projects">List projects</a>
+        </li>
+        
+        <li>
+            <a href="#request-list-knowledge-transfer-activities">List Knowledge Transfer Activities</a>
+        </li>
+        
+        <li>
+            <a href="#request-list-collections">List Collections</a>
+        </li>
+        
+        <li>
+            <a href="#request-list-infrastructure">List Infrastructure</a>
+        </li>
+        
         
     </ul>
 </div>
@@ -159,7 +175,7 @@ pre code {
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1></h1>
+                <h1>MediaWiki Connector (MWC)</h1>
 
                 <h2 id="doc-general-notes">
                     General notes
@@ -175,6 +191,130 @@ pre code {
                     <a href="#doc-api-detail"><i class="glyphicon glyphicon-link"></i></a>
                 </h2>
 
+                
+                
+                <div class="request">
+
+                    <h3 id="request-list-projects">
+                        List projects
+                        <a href="#request-list-projects"><i class="glyphicon glyphicon-link"></i></a>
+                    </h3>
+
+                    <div></div>
+
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#request-list-projects-example-curl" data-toggle="tab">Curl</a></li>
+                            <li role="presentation"><a href="#request-list-projects-example-http" data-toggle="tab">HTTP</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="request-list-projects-example-curl">
+                                <pre><code class="hljs curl">curl -X GET "https://localhost:5434/projects"</code></pre>
+                            </div>
+                            <div class="tab-pane" id="request-list-projects-example-http">
+                                <pre><code class="hljs http">GET /projects HTTP/1.1
+Host: localhost:5434</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                </div>
+                
+                
+                <div class="request">
+
+                    <h3 id="request-list-knowledge-transfer-activities">
+                        List Knowledge Transfer Activities
+                        <a href="#request-list-knowledge-transfer-activities"><i class="glyphicon glyphicon-link"></i></a>
+                    </h3>
+
+                    <div></div>
+
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#request-list-knowledge-transfer-activities-example-curl" data-toggle="tab">Curl</a></li>
+                            <li role="presentation"><a href="#request-list-knowledge-transfer-activities-example-http" data-toggle="tab">HTTP</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="request-list-knowledge-transfer-activities-example-curl">
+                                <pre><code class="hljs curl">curl -X GET "https://localhost:5434/ktas"</code></pre>
+                            </div>
+                            <div class="tab-pane" id="request-list-knowledge-transfer-activities-example-http">
+                                <pre><code class="hljs http">GET /ktas HTTP/1.1
+Host: localhost:5434</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                </div>
+                
+                
+                <div class="request">
+
+                    <h3 id="request-list-collections">
+                        List Collections
+                        <a href="#request-list-collections"><i class="glyphicon glyphicon-link"></i></a>
+                    </h3>
+
+                    <div></div>
+
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#request-list-collections-example-curl" data-toggle="tab">Curl</a></li>
+                            <li role="presentation"><a href="#request-list-collections-example-http" data-toggle="tab">HTTP</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="request-list-collections-example-curl">
+                                <pre><code class="hljs curl">curl -X GET "https://localhost:5434/collections"</code></pre>
+                            </div>
+                            <div class="tab-pane" id="request-list-collections-example-http">
+                                <pre><code class="hljs http">GET /collections HTTP/1.1
+Host: localhost:5434</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                </div>
+                
+                
+                <div class="request">
+
+                    <h3 id="request-list-infrastructure">
+                        List Infrastructure
+                        <a href="#request-list-infrastructure"><i class="glyphicon glyphicon-link"></i></a>
+                    </h3>
+
+                    <div></div>
+
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#request-list-infrastructure-example-curl" data-toggle="tab">Curl</a></li>
+                            <li role="presentation"><a href="#request-list-infrastructure-example-http" data-toggle="tab">HTTP</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="request-list-infrastructure-example-curl">
+                                <pre><code class="hljs curl">curl -X GET "https://localhost:5434/infrastructure"</code></pre>
+                            </div>
+                            <div class="tab-pane" id="request-list-infrastructure-example-http">
+                                <pre><code class="hljs http">GET /infrastructure HTTP/1.1
+Host: localhost:5434</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                </div>
                 
 
 
