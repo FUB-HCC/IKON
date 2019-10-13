@@ -208,7 +208,8 @@ pre code {
                         <a href="#request-list-projects"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
 
-                    <div></div>
+                    <div><p>This request gets all MfN projects from the database.</p></div>
+                    <div><p>URL-Parameters: None</p></div>
 
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
@@ -239,7 +240,8 @@ Host: localhost:5433</code></pre>
                         <a href="#request-list-institutions"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
 
-                    <div></div>
+                    <div><p>This request gets all institutions from the database.</p></div>
+                    <div><p>URL-Parameters: None</p></div>
 
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
@@ -270,7 +272,8 @@ Host: localhost:5433</code></pre>
                         <a href="#request-list-knowledge-transfer-activities"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
 
-                    <div></div>
+                    <div><p>This request gets all KTAs from the database.</p></div>
+                    <div><p>URL-Parameters: None</p></div>
 
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
@@ -301,7 +304,7 @@ Host: localhost:5433</code></pre>
                         <a href="#request-update-geolocation-for-institutions"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
 
-                    <div><p>This reqest updates the geolocation information for every Institution entry in the database.</p>
+                    <div><p>This request updates the geolocation information for every Institution entry in the database.</p>
 </div>
 
                     <div>
@@ -332,6 +335,9 @@ Host: localhost:5433</code></pre>
                         Insert projects from MfN
                         <a href="#request-insert-projects-from-mfn"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
+                  
+                    <div><p>This request inserts sourced MfN projects into the database.</p></div>
+                    <div><p>URL-Parameters: None</p></div>
 
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
@@ -361,6 +367,9 @@ Host: localhost:5433</code></pre>
                         Insert Knowledge Transfer Activities
                         <a href="#request-insert-knowledge-transfer-activities"><i class="glyphicon glyphicon-link"></i></a>
                     </h3>
+                  
+                    <div><p>This request inserts sourced KTAs into the database.</p></div>
+                    <div><p>URL-Parameters: None</p></div>
 
                     <div>
                         <ul class="nav nav-tabs" role="tablist">
@@ -374,6 +383,38 @@ Host: localhost:5433</code></pre>
                             <div class="tab-pane" id="request-insert-knowledge-transfer-activities-example-http">
                                 <pre><code class="hljs http">PATCH /knowledgeTransferActivities HTTP/1.1
 Host: localhost:5433</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                </div>
+              
+              
+            <div class="request">
+
+                    <h3 id="request-get-clustering">
+                        Get clustering
+                        <a href="#request-get-clustering"><i class="glyphicon glyphicon-link"></i></a>
+                    </h3>
+                  
+                    <div><p>Get a clustering for a selection of documents and parameters.</p></div>
+                    <div><p>URL-Parameters: emb_model, targetDim, dimreduction, clustering, embedding, num_topics, num_clusters, perplexity, learning_rate, error, interpolation, viz, width, height</p></div>
+                    <div><p>For a closer description of each parameter consult the Jupyter Notebook in the IKON-backend repo.</p></div>
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#request-irequest-get-clustering-example-curl" data-toggle="tab">Curl</a></li>
+                            <li role="presentation"><a href="#request-request-get-clustering-example-http" data-toggle="tab">HTTP</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="request-request-get-clustering-example-curl">
+                                <pre><code class="hljs curl">curl -X GET "https://localhost:5435/clustering"</code></pre>
+                            </div>
+                            <div class="tab-pane" id="request-request-get-clustering-example-http">
+                                <pre><code class="hljs http">GET /clustering HTTP/1.1
+Host: localhost:5435</code></pre>
                             </div>
                         </div>
                     </div>
