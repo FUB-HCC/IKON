@@ -19,4 +19,4 @@ We aim to provide the researchers at museum with (1) an ontology for documenting
 - [Installation guide](https://github.com/FUB-HCC/IKON/wiki/IKON-installation-guide)
 
 ## Knowledge Transfer Ontology
-- [Ontology Documentation](https://fub-hcc.github.io/IKON-ontology/docs/index-en.html)
+- [Ontology Download and Documentation](https://fub-hcc.github.io/IKON-ontology/docs/index-en.html)
