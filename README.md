@@ -15,10 +15,8 @@ Behind the publicly accessible spaces, these researchers work on manyfold projec
 We aim to provide the researchers at museum with (1) an ontology for documenting and linking knowledge transfer activities, (2) insights about potentials for knowledge transfer powered by machine learning and (3) interactive visualisations of these networked sources of knowledge. Focussing on the seamless integration of these provisions, the HCC aims to set up an actionable and holistic system that visualises research project data and their potential for knowledge transfer in research museums like the Natural History Museum.
 
 ## Interactive visualization prototype
+- [Prototype code repository](https://github.com/FUB-HCC/IKON-backend)
 - [Installation guide](https://github.com/FUB-HCC/IKON/wiki/IKON-installation-guide)
-
-- [Backend code repository](https://github.com/FUB-HCC/IKON-backend)
-- [Frontend ('projektor') code repository](https://github.com/FUB-HCC/IKON-projektor)
 
 ## Knowledge Transfer Ontology
 - [Ontology Documentation](https://fub-hcc.github.io/IKON-ontology/docs/index-en.html)
