@@ -1,14 +1,26 @@
-@font-face {
+@font-face{ 
   font-family: 'Aller-Light';
-  src: url('Aller-Light.woff') format('woff');
+  src: url('font/aller_light-webfont.eot');
+  src: url('font/aller_light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/aller_light-webfont.woff') format('woff'),
+       url('font/aller_light-webfont.ttf') format('truetype'),
+       url('font/aller_light-webfont.svg#webfont') format('svg');
 }
-@font-face {
+@font-face{ 
   font-family: 'Aller-Light-Italic';
-  src: url('Aller-Light-Italic.woff') format('woff');
+  src: url('font/aller_light-italic-webfont.eot');
+  src: url('font/aller_light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/aller_light-italic-webfont.woff') format('woff'),
+       url('font/aller_light-italic-webfont.ttf') format('truetype'),
+       url('font/aller_light-italic-webfont.svg#webfont') format('svg');
 }
-@font-face {
+@font-face{ 
   font-family: 'Aller-Regular';
-  src: url('Aller-Regular.woff') format('woff');
+  src: url('font/aller_regular-webfont.eot');
+  src: url('font/aller_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/aller_regular-webfont.woff') format('woff'),
+       url('font/aller_regular-webfont.ttf') format('truetype'),
+       url('font/aller_regular-webfont.svg#webfont') format('svg');
 }
 html, body {
   font-family: 'Aller-Light', sans-serif; /*Specify your font name here*/
