@@ -13,7 +13,20 @@
     <link rel="shortcut icon" href="./favicon.ico" />
    
   </head>
-  <body>
+
+  <script type="text/javascript">
+    function breakup(){
+      var w = window.innerWidth;
+      if(w > 782 && w < 1006){
+        document.getElementById("qi").innerHTML = "Qualitative<br>Insights";
+      }
+      else{
+        document.getElementById("qi").innerHTML = "Qualitative Insights";
+      }
+    }
+   </script>
+  
+  <body onresize="breakup()" onload="breakup()">
     <!-- Header -->
     <div class="container" id="head">
       <img src="./assets/IKON-Logo-screen_M-rgb-positive-unprotected.svg" class="logo">
@@ -44,7 +57,7 @@
       </div>
       <div class="teaser middle">
         <img src="./assets/qualitative-insights1.svg">
-        <h1>Qualitative Insights</h1>
+        <h1 id="qi">Qualitative Insights</h1>
         <p>
           To provide an actionable technological solution, we conducted qualitative studies to understand the specific contextual requirements.
         </p><br>
