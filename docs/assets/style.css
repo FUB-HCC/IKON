@@ -64,7 +64,7 @@ hr{margin:0;padding:0;}
 
 body a {
  text-decoration: none;
- color: #ADC913;
+ color: rgb(161,191,36);
  font-family:"Aller-Regular";
 }
 
@@ -93,7 +93,7 @@ body a:hover {
   color:#333;
   float:left;
   width:calc(50% - 7.5px);
-  background-color: #ADC913;
+  background-color: rgb(161,191,36);
   padding:10px 10px 7px 10px;
 }
 .software-box:hover {color:#333;}
@@ -104,11 +104,11 @@ body a:hover {
 .left{margin-right: 7.5px;}
 .right{margin-left:7.5px;}
 .btn, .btn-primary{
-  background-color: #ADC913;
+  background-color: rgb(161,191,36);
   border:none;
 }
 .btn:hover, .btn-primary:hover{
-  background-color: #ADC913;
+  background-color: rgb(161,191,36);
   color:#333;
 }
 
@@ -117,7 +117,7 @@ body a:hover {
   padding-left:25px;
 }
 .learnmore {
-  background-color:#ADC913;
+  background-color:rgb(161,191,36);
   border-radius: 5px;
   color:white;
   padding:10px;
