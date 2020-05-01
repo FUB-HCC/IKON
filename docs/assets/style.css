@@ -23,17 +23,17 @@
        url('font/aller_regular-webfont.svg#webfont') format('svg');
 }
 html, body {
-  font-family: 'Aller-Light', sans-serif; /*Specify your font name here*/
+  font-family: 'Aller-Light', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body{background-color: #ddd;}
 p{margin:0px;max-width: 600px;}
 h1{font-family:'Aller-Regular';font-size:24px;}
+hr{margin:0;padding:0;}
 .bold{font-family:'Aller-Regular';}
 .italic{font-family:'Aller-Light-Italic';}
 .container{background-color: white;
- /*border-bottom: 1px solid #ddd;*/
  padding:15px 15px 0px 15px;
 }
 .container ul{
@@ -45,14 +45,11 @@ h1{font-family:'Aller-Regular';font-size:24px;}
   background-color: ;
   list-style:none;
   display:inline;
-  float:right;
-  margin-left:30px;
+  float:;
+  margin-left:40px;
 }
-.container ul li a{
-  font-size:22px;
-  color:#333;
-  text-decoration: none;
-  transition: color 0.25s ease;
+.container ul li:first-child{
+ margin-left:0px; 
 }
 .container ul li a:hover{
   color:#999;
@@ -148,9 +145,11 @@ body a:hover {
   padding:30px 0px 50px 0px;
 }
 @media (min-width: 50px) {
-  .logo{float :left; width:90px;}
+  .s-off{display:none;}
+  .logo{float :left; width:110px;}
   .container ul{ margin:0px 0px 0px 0px;}
-  .container ul li{ margin-left:5px;}  
+  .container ul li{ margin-left:5px;} 
+  .container ul li:last-child{float:right;} 
   .container ul li a{
     font-size:16px;
     color:#333;
@@ -161,32 +160,39 @@ body a:hover {
   .middle{margin:0px;margin-bottom:50px;}
   .teaser img{max-width: 150px;}
   .about-text{width:100%;}
-  .about-team{width:100%;margin-top:50px;}/*width 47.5*/
+  .about-team{width:100%;margin-top:50px;}
   .software-box{width:100%;margin-bottom:15px;}
   .right{margin:0px;}
 }
-@media (min-width: 450px) {
+@media (min-width: 575px) {
+  .s-off{display:inline-block;}
   .logo{float :left; width:120px;}
+  .logo-box{width:100%;background-color:;height:26px;}
+  .navigation{background-color:;width:100%;height:20px;text-align:left;margin-top:10px;}
   .container ul{ margin:2px 0px 0px 0px;}
-  .container ul li{ margin-left:15px;} 
+  .container ul li{ margin-left:10px;} 
+  .container ul li:last-child{float:right;}
   .container ul li a{
     font-size:16px;
     color:#333;
     text-decoration: none;
     transition: color 0.25s ease;
   }
+  #video{padding-top:12px;}
   .teaser{width:100%;margin-bottom:50px;}
   .middle{margin:0px;margin-bottom:50px;}
   .teaser img{max-width: 150px;}
   .about-text{width:100%;}
-  .about-team{width:100%;margin-top:50px;}/*width 47.5*/
+  .about-team{width:100%;margin-top:50px;}
   .software-box{float:left; width:calc(50% - 7.5px);}
   .right{margin:0px;}
 }
 @media (min-width: 768px){
-  .logo{float :left;width:200px;}
+  .logo{float:;width:200px;}
+  .logo-box{height:45px;}
+  .navigation{background-color:;width:100%;height:30px;margin:10px 0px 0px 0px;}
   .container ul{ margin:6px 0px 0px 0px;}
-  .container ul li{ margin-left:25px;} 
+  .container ul li{ margin-left:15px;} 
   .container ul li a{
     font-size:22px;
     color:#333;
@@ -195,7 +201,7 @@ body a:hover {
   }
   .teaser{width:calc((100% - 30px) / 3);}
   .about-text{width:60%;margin-right:50px;float:left;}
-  .about-team{margin:0;width:30%;float:left;}/*width 47.5*/
+  .about-team{margin:0;width:30%;float:left;}
 }
 @media (min-width: 992px){
   #publications{
